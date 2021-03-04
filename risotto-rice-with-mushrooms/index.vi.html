@@ -25,11 +25,11 @@
         }
     ],
     "gtin": "09506000134352",
-        "s:brand": {
+    "s:brand": {
         "@id": "https://dalgiardino.com/",
-        "s:name": "Dal Giardino"
+        "s:name": "Dal Giardino",
+        "@type": "s:Organization"
     },
-
     "s:description": [
         {
             "@value": "An entirely fictitious product used in GS1 documentation",
@@ -60,7 +60,9 @@
         ]
     },
     "s:manufacturer": {
-        "@id": "GS1"
+        "@id": "https://www.gs1.org",
+        "s:name": "GS1",
+        "@type": "s:Consortium"
     },
     "isProductRecalled": {
         "@value": "false",
